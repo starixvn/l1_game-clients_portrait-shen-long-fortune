@@ -1,0 +1,13 @@
+{
+    "bottomAreaTextColor": "#FFBF77",
+    "bottomAreaNumberColor": "#ffffff",
+    "bottomAreaButtonBorderColor": "#FFBF77",
+    "bottomAreaButtonBackgroundColor": "#110C01",
+    "bottomAreaWinAmountColor": "#FFF10E",
+    "previewOddsBorderColor": "#F7FF18",
+    "previewOddsSymbolNumberColor": "#ffffff",
+    "previewOddsWinValueColor": "#f7ff18",
+    "noticeTextColor": "#ffffff",
+    "noticeHighlightTextColor": "#ffcc00",
+    "topMessageTextColor": "#ffffff"
+}

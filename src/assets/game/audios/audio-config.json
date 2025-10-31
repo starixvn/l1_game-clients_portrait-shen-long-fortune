@@ -1,0 +1,115 @@
+{
+    "bgm-song1": {
+        "bundle": "resources",
+        "path": "background-music/song1",
+        "type": "music",
+        "isMusicGame": true,
+        "isLazyLoad": true
+    },
+    "big-win": {
+        "bundle": "resources",
+        "path": "big-win",
+        "isLazyLoad": true
+    },
+    "click": {
+        "bundle": "resources",
+        "path": "click",
+        "isLazyLoad": true
+    },
+    "win": {
+        "bundle": "resources",
+        "path": "win",
+        "isLazyLoad": true
+    },
+    "reel-stop": {
+        "bundle": "resources",
+        "path": "reel-stop",
+        "isLazyLoad": true
+    },
+    "spin-button": {
+        "bundle": "resources",
+        "path": "spin-button",
+        "isLazyLoad": true
+    },
+    "spinning-normal": {
+        "bundle": "resources",
+        "path": "spinning-normal",
+        "isLazyLoad": true
+    },
+    "spinning-turbo": {
+        "bundle": "resources",
+        "path": "spinning-turbo",
+        "isLazyLoad": true
+    },
+    "symbol-match": {
+        "bundle": "resources",
+        "path": "symbol-match",
+        "isLazyLoad": true
+    },
+    "transition": {
+        "bundle": "resources",
+        "path": "transition",
+        "isLazyLoad": true
+    },
+    "multiplier-activate": {
+        "bundle": "resources",
+        "path": "multiplier-activate",
+        "isLazyLoad": true
+    },
+    "freespin": {
+        "bundle": "resources",
+        "path": "freespin",
+        "isLazyLoad": true
+    },
+    "wincount-increment": {
+        "bundle": "resources",
+        "path": "wincount-increment",
+        "isLazyLoad": true
+    },
+    "wincount-stop": {
+        "bundle": "resources",
+        "path": "wincount-stop",
+        "isLazyLoad": true
+    },
+
+    "peek-effect-item": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "stinger-freespin-peek": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "peek-effect-shift": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "bgm-freespin": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "click-symbol": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "multiplier-land": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "stinger-wincount": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "stinger-freespin-win": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "symbol-scatter": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "symbol-scatter-win": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    }
+}

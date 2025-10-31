@@ -1,0 +1,48 @@
+
+background-decor.webp
+size: 688,1078
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud
+  rotate: false
+  xy: 2, 672
+  size: 638, 404
+  orig: 638, 404
+  offset: 0, 0
+  index: -1
+storm 1
+  rotate: false
+  xy: 309, 2
+  size: 272, 120
+  orig: 272, 120
+  offset: 0, 0
+  index: -1
+storm 2
+  rotate: false
+  xy: 309, 124
+  size: 353, 163
+  orig: 353, 163
+  offset: 0, 0
+  index: -1
+thunder 1
+  rotate: true
+  xy: 359, 289
+  size: 381, 327
+  orig: 381, 327
+  offset: 0, 0
+  index: -1
+thunder 2
+  rotate: false
+  xy: 2, 315
+  size: 355, 355
+  orig: 355, 355
+  offset: 0, 0
+  index: -1
+thunder 3
+  rotate: false
+  xy: 2, 17
+  size: 305, 296
+  orig: 305, 296
+  offset: 0, 0
+  index: -1

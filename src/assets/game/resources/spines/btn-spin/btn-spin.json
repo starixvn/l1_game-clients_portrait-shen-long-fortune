@@ -1,0 +1,305 @@
+{
+"skeleton": { "hash": "FLmyKjMNMBBqRVkqFgXRJlj/8Js", "spine": "3.8.99", "images": "./images/", "audio": "F:/WorkFolder/8 slotgame/animation/spin" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "spin", "parent": "root" },
+	{ "name": "spin-button", "parent": "spin" },
+	{ "name": "bg", "parent": "spin" },
+	{ "name": "hover", "parent": "spin", "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "hover2", "parent": "spin", "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "smoke", "parent": "effect" },
+	{ "name": "electric", "parent": "effect" },
+	{ "name": "disable", "parent": "root" }
+],
+"slots": [
+	{ "name": "hover", "bone": "hover", "blend": "additive" },
+	{ "name": "hover2", "bone": "hover2", "blend": "additive" },
+	{ "name": "BG", "bone": "bg" },
+	{ "name": "spin", "bone": "spin-button" },
+	{ "name": "light3", "bone": "bg", "color": "ff7474ff" },
+	{ "name": "light2", "bone": "bg" },
+	{ "name": "light1", "bone": "bg", "color": "ffb2b2ff" },
+	{ "name": "smoke/smoke_1", "bone": "smoke", "blend": "additive" },
+	{ "name": "electric-circle/Electric _1", "bone": "electric", "blend": "additive" },
+	{ "name": "black-72-disable", "bone": "disable" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BG": {
+				"BG": { "width": 184, "height": 184 }
+			},
+			"black-72-disable": {
+				"black-72-disable": { "width": 100, "height": 100 }
+			},
+			"electric-circle/Electric _1": {
+				"electric circle/Electric _1": { "width": 180, "height": 180 },
+				"electric circle/Electric _2": { "width": 180, "height": 180 },
+				"electric circle/Electric _3": { "width": 180, "height": 180 },
+				"electric circle/Electric _4": { "width": 180, "height": 180 },
+				"electric circle/Electric _5": { "width": 180, "height": 180 },
+				"electric circle/Electric _6": { "width": 180, "height": 180 },
+				"electric circle/Electric _7": { "width": 180, "height": 180 },
+				"electric circle/Electric _8": { "width": 180, "height": 180 }
+			},
+			"hover": {
+				"hover/hover_1": { "width": 225, "height": 225 }
+			},
+			"hover2": {
+				"hover/hover_1": { "width": 225, "height": 225 }
+			},
+			"light1": {
+				"light2": { "x": -68.5, "y": 14, "width": 39, "height": 38 }
+			},
+			"light2": {
+				"light2": { "x": 42.5, "y": -58, "width": 39, "height": 38 }
+			},
+			"light3": {
+				"light2": { "x": 66.5, "y": 25, "width": 39, "height": 38 }
+			},
+			"smoke/smoke_1": {
+				"smoke/smoke_1": { "width": 180, "height": 180 }
+			},
+			"spin": {
+				"spin": { "x": 0.5, "y": -0.5, "width": 139, "height": 139 }
+			}
+		}
+	}
+],
+"animations": {
+	"disable": {
+		"slots": {
+			"black-72-disable": {
+				"attachment": [
+					{ "name": "black-72-disable" }
+				]
+			}
+		}
+	},
+	"hover": {
+		"slots": {
+			"hover": {
+				"color": [
+					{ "color": "ffffffab" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "hover/hover_1" }
+				]
+			},
+			"hover2": {
+				"color": [
+					{ "color": "ffffff6b", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff6b" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "hover/hover_1" }
+				]
+			}
+		},
+		"bones": {
+			"hover": {
+				"scale": [
+					{ "x": 0.711, "y": 0.711 },
+					{ "time": 1 }
+				]
+			},
+			"hover2": {
+				"scale": [
+					{ "x": 0.711, "y": 0.711, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.711, "y": 0.711 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"BG": {
+				"attachment": [
+					{ "name": "BG" }
+				]
+			},
+			"light1": {
+				"color": [
+					{ "color": "ffb2b2c1" },
+					{ "time": 0.6, "color": "ffb2b2ff" },
+					{ "time": 2.2667, "color": "ffb2b252" },
+					{ "time": 3.3333, "color": "ffb2b2c1" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"light2": {
+				"color": [
+					{ "color": "ffffff93" },
+					{ "time": 1.0667, "color": "ffffffff" },
+					{ "time": 2.7333, "color": "ffffff56" },
+					{ "time": 3.3333, "color": "ffffff93" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"light3": {
+				"color": [
+					{ "color": "ff7474ff" },
+					{ "time": 1.6667, "color": "ff737350" },
+					{ "time": 3.3333, "color": "ff7474ff" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"smoke/smoke_1": {
+				"color": [
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.5, "name": "smoke/smoke_1" }
+				]
+			},
+			"spin": {
+				"attachment": [
+					{ "name": "spin" }
+				]
+			}
+		},
+		"bones": {
+			"spin-button": {
+				"scale": [
+					{},
+					{ "time": 2.3333, "x": 1.03, "y": 1.03 },
+					{ "time": 2.5 }
+				]
+			},
+			"smoke": {
+				"scale": [
+					{ "x": 1.2, "y": 1.2, "curve": "stepped" },
+					{ "time": 2.5, "x": 1.2, "y": 1.2 },
+					{ "time": 3.3333, "x": 1.7, "y": 1.7 }
+				]
+			}
+		}
+	},
+	"spin": {
+		"slots": {
+			"BG": {
+				"attachment": [
+					{ "name": "BG" }
+				]
+			},
+			"light1": {
+				"color": [
+					{ "color": "ffb2b2c1" },
+					{ "time": 0.6, "color": "ffb2b2ff" },
+					{ "time": 2.2667, "color": "ffb2b252" },
+					{ "time": 3.3333, "color": "ffb2b2c1" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"light2": {
+				"color": [
+					{ "color": "ffffff93" },
+					{ "time": 1.0667, "color": "ffffffff" },
+					{ "time": 2.7333, "color": "ffffff56" },
+					{ "time": 3.3333, "color": "ffffff93" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"light3": {
+				"color": [
+					{ "color": "ff7474ff" },
+					{ "time": 1.6667, "color": "ff737350" },
+					{ "time": 3.3333, "color": "ff7474ff" }
+				],
+				"attachment": [
+					{ "name": "light2" }
+				]
+			},
+			"spin": {
+				"attachment": [
+					{ "name": "spin" }
+				]
+			}
+		},
+		"bones": {
+			"spin-button": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 1.04, "y": 0.35 },
+					{ "time": 0.3333, "x": -1.72 },
+					{ "time": 0.5, "x": -0.35, "y": -0.34 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "x": -0.54, "y": 1.09 },
+					{ "time": 1 },
+					{ "time": 1.1667, "x": 1.04, "y": 0.35 },
+					{ "time": 1.3333, "x": 0.17, "y": -1.57 },
+					{ "time": 1.5, "x": -0.35, "y": -0.34 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "x": -0.54, "y": 1.09 },
+					{ "time": 2 },
+					{ "time": 2.1667, "x": 1.04, "y": 0.35 },
+					{ "time": 2.3333, "x": -1.72 },
+					{ "time": 2.5, "x": -0.35, "y": -0.34 },
+					{ "time": 2.6667 },
+					{ "time": 2.8333, "x": -0.54, "y": 1.09 },
+					{ "time": 3 },
+					{ "time": 3.1667, "x": 0.54 },
+					{ "time": 3.3333 }
+				]
+			}
+		}
+	},
+	"spin-extra": {
+		"slots": {
+			"electric-circle/Electric _1": {
+				"attachment": [
+					{ "name": "electric circle/Electric _1" },
+					{ "time": 0.0333, "name": "electric circle/Electric _2" },
+					{ "time": 0.0667, "name": "electric circle/Electric _3" },
+					{ "time": 0.1, "name": "electric circle/Electric _4" },
+					{ "time": 0.1333, "name": "electric circle/Electric _5" },
+					{ "time": 0.1667, "name": "electric circle/Electric _6" },
+					{ "time": 0.2, "name": "electric circle/Electric _7" },
+					{ "time": 0.2333, "name": "electric circle/Electric _8" },
+					{ "time": 0.2667, "name": "electric circle/Electric _7" },
+					{ "time": 0.3, "name": "electric circle/Electric _6" },
+					{ "time": 0.3333, "name": "electric circle/Electric _5" },
+					{ "time": 0.3667, "name": "electric circle/Electric _4" },
+					{ "time": 0.4, "name": "electric circle/Electric _3" },
+					{ "time": 0.4333, "name": "electric circle/Electric _2" },
+					{ "time": 0.4667, "name": "electric circle/Electric _3" },
+					{ "time": 0.5, "name": "electric circle/Electric _4" },
+					{ "time": 0.5333, "name": "electric circle/Electric _5" },
+					{ "time": 0.5667, "name": "electric circle/Electric _6" },
+					{ "time": 0.6, "name": "electric circle/Electric _7" },
+					{ "time": 0.6333, "name": "electric circle/Electric _8" },
+					{ "time": 0.6667, "name": "electric circle/Electric _7" },
+					{ "time": 0.7, "name": "electric circle/Electric _6" },
+					{ "time": 0.7333, "name": "electric circle/Electric _4" },
+					{ "time": 0.7667, "name": "electric circle/Electric _2" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"electric": {
+				"scale": [
+					{ "x": 1.522, "y": 1.522 },
+					{ "time": 0.8333, "x": 1.582, "y": 1.582 }
+				]
+			}
+		}
+	}
+}
+}

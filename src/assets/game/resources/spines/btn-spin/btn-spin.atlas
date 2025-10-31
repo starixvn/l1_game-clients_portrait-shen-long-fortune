@@ -1,0 +1,104 @@
+
+btn-spin.webp
+size: 1147,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 227, 182
+  size: 182, 182
+  orig: 184, 184
+  offset: 1, 1
+  index: -1
+black-72-disable
+  rotate: false
+  xy: 139, 39
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 1
+  index: -1
+electric circle/Electric _1
+  rotate: false
+  xy: 239, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _2
+  rotate: false
+  xy: 411, 184
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _3
+  rotate: false
+  xy: 421, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _4
+  rotate: false
+  xy: 593, 184
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _5
+  rotate: false
+  xy: 603, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _6
+  rotate: false
+  xy: 775, 184
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _7
+  rotate: false
+  xy: 785, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+electric circle/Electric _8
+  rotate: false
+  xy: 957, 184
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+hover/hover_1
+  rotate: false
+  xy: 0, 139
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+light2
+  rotate: true
+  xy: 139, 10
+  size: 27, 26
+  orig: 39, 38
+  offset: 6, 6
+  index: -1
+smoke/smoke_1
+  rotate: false
+  xy: 967, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+spin
+  rotate: false
+  xy: 0, 0
+  size: 137, 137
+  orig: 139, 139
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,20 @@
+info face="font-number-export" size=80 ld=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=10,10
+common lineHeight=80 base=80 scaleW=274 scaleH=253 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="font-number-export.png"
+chars count=14
+char id=48 x=213 y=170 width=51 height=71 xoffset=0 yoffset=9 xadvance=39 page=0 chnl=0 letter="0"
+char id=49 x=214 y=0 width=42 height=69 xoffset=0 yoffset=10 xadvance=30 page=0 chnl=0 letter="1"
+char id=50 x=0 y=85 width=65 height=69 xoffset=0 yoffset=10 xadvance=53 page=0 chnl=0 letter="2"
+char id=51 x=144 y=90 width=60 height=70 xoffset=0 yoffset=10 xadvance=48 page=0 chnl=0 letter="3"
+char id=52 x=0 y=0 width=66 height=75 xoffset=0 yoffset=7 xadvance=54 page=0 chnl=0 letter="4"
+char id=53 x=74 y=164 width=60 height=69 xoffset=0 yoffset=10 xadvance=48 page=0 chnl=0 letter="5"
+char id=54 x=146 y=0 width=58 height=70 xoffset=0 yoffset=10 xadvance=46 page=0 chnl=0 letter="6"
+char id=55 x=144 y=170 width=59 height=73 xoffset=0 yoffset=8 xadvance=47 page=0 chnl=0 letter="7"
+char id=56 x=0 y=164 width=64 height=70 xoffset=0 yoffset=10 xadvance=52 page=0 chnl=0 letter="8"
+char id=57 x=76 y=0 width=60 height=80 xoffset=0 yoffset=6 xadvance=48 page=0 chnl=0 letter="9"
+char id=46 x=214 y=79 width=30 height=30 xoffset=0 yoffset=47 xadvance=18 page=0 chnl=0 letter="."
+char id=44 x=75 y=90 width=35 height=40 xoffset=0 yoffset=46 xadvance=23 page=0 chnl=0 letter=","
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=16 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter="	"
+
+kernings count=0

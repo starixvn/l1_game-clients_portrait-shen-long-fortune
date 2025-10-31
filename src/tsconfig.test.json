@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": false,
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "paths": {
+           "cc": ["./tests/cocos-testing/cc"],
+            "db://shared-common-slot/*": ["./extensions/shared-common-slot/assets/*"],
+            "db://shared-components/*": ["./extensions/shared-components/assets/*"],
+            "db://i18n/*": ["./extensions/i18n/assets/*"],
+            "db://shared-cascading-slot/*": ["./extensions/shared-cascading-slot/assets/*"],
+            "db://assets/*": ["./assets/*"]
+        }
+    }
+}

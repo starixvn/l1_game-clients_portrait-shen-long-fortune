@@ -1,0 +1,18 @@
+{
+    /* Add your custom configuration here. */
+    "compilerOptions": {
+        "strict": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "types": ["node"],
+        "paths": {
+            "db://shared-cascading-slot/*": ["./extensions/shared-cascading-slot/assets/*"],
+            "db://shared-components/*": ["./extensions/shared-components/assets/*"],
+            "db://i18n/*": ["./extensions/i18n/assets/*"],
+            "sc-user-service-client/dist/*": ["./node_modules/sc-user-service-client/dist/*"],
+            "db://assets/*": ["./assets/*"],
+            "socket.io-client/dist/*": ["./node_modules/socket.io-client/dist/*"],
+            "db://shared-common-slot/*": ["./extensions/shared-common-slot/assets/*"]
+        }
+    }
+}

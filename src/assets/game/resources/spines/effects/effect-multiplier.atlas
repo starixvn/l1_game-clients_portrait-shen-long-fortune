@@ -1,0 +1,146 @@
+
+effect-multiplier.webp
+size: 1906,1990
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightning_1
+  rotate: true
+  xy: 0, 1660
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_10
+  rotate: true
+  xy: 1404, 1660
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_11
+  rotate: true
+  xy: 1404, 1328
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_12
+  rotate: true
+  xy: 1404, 996
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_13
+  rotate: true
+  xy: 1404, 664
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_14
+  rotate: true
+  xy: 702, 332
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_15
+  rotate: true
+  xy: 1104, 332
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_16
+  rotate: true
+  xy: 1506, 332
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_17
+  rotate: true
+  xy: 0, 0
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_18
+  rotate: true
+  xy: 402, 0
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_19
+  rotate: true
+  xy: 804, 0
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_2
+  rotate: true
+  xy: 702, 1660
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_20
+  rotate: true
+  xy: 1206, 0
+  size: 330, 400
+  orig: 332, 402
+  offset: 1, 1
+  index: -1
+lightning_3
+  rotate: true
+  xy: 0, 1328
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_4
+  rotate: true
+  xy: 702, 1328
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_5
+  rotate: true
+  xy: 0, 996
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_6
+  rotate: true
+  xy: 702, 996
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_7
+  rotate: true
+  xy: 0, 664
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_8
+  rotate: true
+  xy: 702, 664
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+lightning_9
+  rotate: true
+  xy: 0, 332
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1

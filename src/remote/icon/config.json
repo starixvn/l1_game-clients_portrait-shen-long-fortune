@@ -1,0 +1,14 @@
+{
+    "premultipliedAlpha": false,
+    "useWebp": true,
+    "gameNotification": {
+        "type": "slot",
+        "x": 0,
+        "y": -50
+    },
+    "labelGameType": {
+        "type": "cascading",
+        "x": -119,
+        "y": -150
+    }
+}

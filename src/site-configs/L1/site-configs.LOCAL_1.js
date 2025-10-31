@@ -1,0 +1,16 @@
+window.envConfig = {
+    systemType: "SG",
+    ssl: true,
+    subDomain: "l1-proxy1",
+    env: "LOCAL1",
+    subGuideDomain: "l1-guide-1",
+    enableMsgpackParserOnNotification: false,
+    enableMsgpackParserAllGames: false,
+    SGConnectSubDomain: "l1-connectsite1",
+    sentry: {
+        dsn: "https://289e71b8cf3992d7e184e21f63aed0b5@sentry-k8s.lumigame.com/29",
+        browserUrl: "https://browser.sentry-cdn.com/10.5.0/bundle.min.js",
+        urlHash: "sha384-SAsRvjfAFRX3iwi3MG6ToeZNJVpHcRXKcITfFVLQipWK3uQ8SakuVmHDoSR3YNmJ",
+        ignoreErrors: [],
+    },
+};

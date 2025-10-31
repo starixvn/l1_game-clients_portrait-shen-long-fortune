@@ -1,0 +1,18 @@
+{
+  "name": "game-client-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-tolgee-data": "ts-node ./tolgee-generator/index.ts",
+    "new-generate-tolgee": "npx tolgee-generator ./tolgee-generator/tolgee.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cli/tolgee-generator": "^1.1.5",
+    "@tolgee/web": "^5.33.2",
+    "ts-node": "^10.9.1"
+  }
+}

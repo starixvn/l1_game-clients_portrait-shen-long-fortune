@@ -1,0 +1,19 @@
+window.envConfig = {
+    systemType: "VG",
+    ssl: true,
+    subDomain: "l2uatproxy",
+    env: "SIT",
+    subGuideDomain: "l2guidesuat",
+    enableMsgpackParserAllGames: true,
+    enableMsgpackParserOnNotification: true,
+    subDirectory: "uat",
+    SGConnectSubDomain: "l2-connect-uat",
+    clientSubDomain: "l2uatclient",
+    subPromotionDomain: "l2uatpromotion",
+    sentry: {
+        dsn: "https://a47db4a57ef2cfe5b9fc433384b40e00@sentry-kl.sgamesuat.com/28",
+        browserUrl: "https://browser.sentry-cdn.com/10.5.0/bundle.min.js",
+        urlHash: "sha384-SAsRvjfAFRX3iwi3MG6ToeZNJVpHcRXKcITfFVLQipWK3uQ8SakuVmHDoSR3YNmJ",
+        ignoreErrors: [],
+    },
+};
