@@ -14,11 +14,10 @@
 	path = src/extensions/i18n
 	url = ../game-client-packages/i18n.git
 	branch = main
-[submodule "src/extensions/shared-cascading-slot"]
-	path = src/extensions/shared-cascading-slot
-	url = ../game-client-packages/shared-cascading-slot.git
-	branch = main
 [submodule "src/extensions/shared-common-slot"]
 	path = src/extensions/shared-common-slot
 	url = ../game-client-packages/shared-common-slot.git
 	branch = main
+[submodule "src/extensions/shared-cluster-cascading"]
+	path = src/extensions/shared-cluster-cascading
+	url = https://git3.nexdev.net/l1/game-clients/game-client-packages/shared-cluster-cascading

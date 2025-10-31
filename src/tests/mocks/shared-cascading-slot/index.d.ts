@@ -1,6 +1,6 @@
 /// <reference types="jest" />
 
-declare module "db://shared-cascading-slot/index" {
+declare module "db://shared-cluster-cascading/index" {
     export const setup: jest.MockedFunction<any>;
     export const onContainerCreated: jest.MockedFunction<any>;
     export const onContainerDestroyed: jest.MockedFunction<any>;

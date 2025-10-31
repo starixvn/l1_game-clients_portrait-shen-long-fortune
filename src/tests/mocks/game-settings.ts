@@ -1,7 +1,7 @@
-export const GAME_NAME = "WukongsRevenge";
+export const GAME_NAME = "goldanddragon";
 
 export const settings = {
-    id: 139,
+    id: 162,
     name: GAME_NAME,
     tolgeeNamespaces: [GAME_NAME, "cascadingslot"],
     durations: {

@@ -6,7 +6,7 @@
         "resolveJsonModule": true,
         "types": ["node"],
         "paths": {
-            "db://shared-cascading-slot/*": ["./extensions/shared-cascading-slot/assets/*"],
+            "db://shared-cluster-cascading/*": ["./extensions/shared-cluster-cascading/assets/*"],
             "db://shared-components/*": ["./extensions/shared-components/assets/*"],
             "db://i18n/*": ["./extensions/i18n/assets/*"],
             "sc-user-service-client/dist/*": ["./node_modules/sc-user-service-client/dist/*"],
