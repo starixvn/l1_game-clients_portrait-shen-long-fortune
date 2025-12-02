@@ -25,7 +25,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: GAME_NAME.toLowerCase(),
         route: GAME_NAME.toLowerCase(),
     },
-    storagePrefixKey: "wukongs_revenge",
+    storagePrefixKey: "shenlongs_fortune",
     tolgeeUrl: "",
     subPromotionDomain: "l2-promotion2",
     sentry: {

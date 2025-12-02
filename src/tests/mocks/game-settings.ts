@@ -1,4 +1,4 @@
-export const GAME_NAME = "goldanddragon";
+export const GAME_NAME = "shenlongsfortune";
 
 export const settings = {
     id: 162,

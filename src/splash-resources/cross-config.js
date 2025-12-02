@@ -1,4 +1,4 @@
 window.crossConfig = {
     backgroundLocalized: false,
-    storagePrefixKey: "wukongs_revenge",
+    storagePrefixKey: "shenlongs_fortune",
 };
